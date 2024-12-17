@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+class Employee
+{
+public static void main(String[] args)
+{
+int empid;
+String empname;
+double salary;
+char gender;
+System.out.println("Enter the emp details");
+Scanner sc=new Scanner(System.in);
+empid=sc.nextInt();//integer as input
+empname=sc.next();//String as input
+salary=sc.nextDouble();
+gender=sc.next().charAt(0);
+System.out.println("Name is: "+empname);
+System.out.println("ID is: "+empid);
+System.out.println("Salary is: "+salary);
+System.out.println("Gender is: "+gender);
+}
+}
+  import(employee_name= pream annadurai)
+enter employee id _12345
+enter 
+
